@@ -32,7 +32,7 @@ either use your own values, or alternatively create :file:`settings.env` for exa
 Installing prerequisites
 ------------------------
 
-**The following steps are run as root.**
+**The following steps are run as root.** (``sudo su``)
 
 Install Java |javaversion_recommended|, Ice |iceversion| and PostgreSQL |postgresversion|:
 
@@ -104,7 +104,7 @@ Change the ownership of the OMERO.server directory and create a symlink:
 Configuring OMERO.server
 ------------------------
 
-**The following steps are run as the omero-server system user.** (``su - omero-server``)
+**The following steps are run as the omero-server system user.** (``sudo -u omero-server -s``)
 
 The variable ``OMERODIR`` set in :download:`settings.env <walkthrough/settings.env>` above **must** point to the location where OMERO.server is installed.
 e.g. ``OMERODIR=/path_to_omero_server/OMERO.server``.
@@ -130,7 +130,7 @@ See also :doc:`../client-server-ssl`.
 Running OMERO.server
 --------------------
 
-**The following steps are run as the omero-server system user.** (``su - omero-server``)
+**The following steps are run as the omero-server system user.** (``sudo -u omero-server -s``)
 
 OMERO should now be set up. To start the server run::
 
