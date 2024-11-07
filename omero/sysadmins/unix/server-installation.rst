@@ -262,7 +262,7 @@ of Ice installed, unpack it:
 
 .. parsed-literal::
 
-    $ unzip OMERO.server-|version_openmicroscopy|-ice36.zip
+    $ unzip OMERO.server.zip
 
 If your system does not provide an :program:`unzip` command by
 default, install one of the following:

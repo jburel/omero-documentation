@@ -172,7 +172,7 @@ directory, you are safe to follow the following upgrade procedure:
 
     $ cd ..
     $ mv OMERO.server OMERO.server-old
-    $ unzip OMERO.server-|version_openmicroscopy|-ice36.zip
+    $ unzip OMERO.server.zip
     $ ln -s OMERO.server-|version_openmicroscopy|-ice36 OMERO.server
     $ cp OMERO.server-old/etc/grid/config.xml OMERO.server/etc/grid
 
